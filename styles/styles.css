@@ -72,6 +72,10 @@ button {
     padding: 5px 20px;
 }
 
+.upper {
+    margin-bottom: 100px;
+}
+
 .upper-title {
     text-align: center;
     font-size: 36px;
@@ -82,11 +86,9 @@ button {
 
 .upper-container {
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
-    /* padding: 10px 150px; */
-    /* gap: 10px; */
+    flex-wrap: wrap;
 }
 
 .upper-container-info {
@@ -94,7 +96,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 50px;
+    padding: 0px 20px;
 }
 
 .upper-image {
@@ -106,4 +108,7 @@ button {
 
 .upper-container-info-text {
     text-align: center;
+    padding-top: 5px;
+    max-width: 150px;
+    color: #1F2937;
 }
