@@ -13,7 +13,7 @@ body {
     color: #F9FAF8;
 }
 
-.right-header {
+.right-hero {
     display: flex;
     flex-shrink: 1;
 }
@@ -39,7 +39,7 @@ li {
     list-style-type: none;
 }
 
-.header-content {
+.hero-content {
     display: flex;
     padding: 50px 60px;
     justify-content: space-between;
