@@ -112,3 +112,35 @@ button {
     max-width: 150px;
     color: #1F2937;
 }
+
+.middle {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -8px;
+    padding: 50px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    font-style: italic;
+    justify-content: center;
+    max-width: 500px;
+    min-width: 100px;
+}
+
+.source {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    max-width: 500px;
+    min-width: 100px;
+    margin-right: 25px;
+}
