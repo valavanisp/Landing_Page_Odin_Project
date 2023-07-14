@@ -65,7 +65,7 @@ li {
     margin-bottom: 10px;
 }
 
-button {
+.hero-button {
     background-color: #3882F6;
     color: white;
     border-radius: 7px;
@@ -143,4 +143,38 @@ button {
     max-width: 500px;
     min-width: 100px;
     margin-right: 25px;
+}
+
+.lower {
+    padding: 70px 140px;
+}
+
+.lower-bg {
+    background-color: #3882F6;
+    min-height: 100px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px 40px;
+    gap: 10px;
+}
+
+.lower-text-main {
+    color: white;
+    font-size: 20px;
+}
+
+.lower-text-secondary {
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+.lower-button {
+    min-width: 80px;
+    min-height: 25px;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
 }
